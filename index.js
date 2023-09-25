@@ -9,7 +9,7 @@ const Bot = mineflayer.createBot({
 Bot.on("spawn", ()=> {
    setInterval(()=>{
     console.log("bot conectado")
-   }, 10000);
+   }, 100000);
 });
 
 
