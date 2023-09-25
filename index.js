@@ -25,5 +25,7 @@ Bot.on("spawn", ()=> {
    }, 10000);
 });
 
-
+server.listen(3000, ()=>{
+    console.log("servidor escuchando en el puerto 3000 ");
+});
 
