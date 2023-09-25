@@ -1,0 +1,15 @@
+{
+  "name": "bot-minecraft",
+  "version": "1.0.0",
+  "description": "bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mineflayer": "^4.12.0",
+    "mineflayer-pathfinder": "^2.4.4"
+  }
+}
