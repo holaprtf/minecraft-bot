@@ -13,7 +13,7 @@ Bot.on("spawn", ()=> {
 });
 
 Bot.on("end",()=>{
-    setInterval(()=>{
+    setInterval(()=>{ 
         console.log("intentando conectar");
         const Bot = mineflayer.createBot({
             host:"CONURBA.aternos.me",
